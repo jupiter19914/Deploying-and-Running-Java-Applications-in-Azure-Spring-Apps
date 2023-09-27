@@ -19,7 +19,7 @@
         <docker.image.dockerfile.dir>${basedir}/../docker</docker.image.dockerfile.dir>
     </properties>
 
-	<dependencies>
+    <dependencies>
 
         <!-- Spring Boot -->
         <dependency>
@@ -103,8 +103,7 @@
             <groupId>com.azure.spring</groupId>
             <artifactId>spring-cloud-azure-starter-keyvault-secrets</artifactId>
         </dependency>
-
-	</dependencies>
+     </dependencies>
 
     <profiles>
         <profile>
